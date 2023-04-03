@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Title-->
+    <title>TDEE Calculator</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">myTDEE</a>
+    <u1 class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link" href="faq.html">FAQ</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+    </u1>
+    </nav>
+<div class="container">
+    <!--Headers-->
+    <h1>TDEE Calculator</h1>
+    <h3>How Many Calories Do You Burn Per Day?</h3>
+    <p>Total daily energy expenditure (TDEE) is the number of calories you burn in a day. It is an estimate used to <br>
+    </p>
+
+    <div class="form">
+        <form>
+            <!--Gender-->
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br>
+            <!--Age-->
+            <label for="age">Age:</label>
+            <input type="number" id="age" min="0" max="120" name="Age" placeholder="Yrs"><br>
+            <!--Weight-->
+            <label for="weight">Weight:</label>
+            <input type="number" id="weight" min="0" max="1000" name="Weight" placeholder="Lbs"><br>
+            <!--Height-->
+            <label for="height">Height:</label>
+            <input type="number" id="feet" min="0" max="10" name="Height" placeholder="Ft">
+            <input type="number" id="inches" min="0" max="11" name="Height" placeholder="In"><br>
+            <!--Activity Level-->
+            <label for="activityLevel">Activity Level:</label>
+            <select id ="activityLevel" name = activityLevel>
+                <option value="" selected disabled hidden>--Choose Activity Level--</option>
+                <option value="sedentary">Sedentary (No exercise)</option>
+                <option value="lightly">Light (Exercise: 1-2 days/week)</option>
+                <option value="moderate">Moderate (Exercise: 3-4 days/week)</option>
+                <option value="heavy">Heavy (Exercise: 5-6 days/week)</option>
+                <option value="extreme">Extreme (Exercise: 7 days/week)</option> 
+            </select><br>
+
+            <button type="button" class="btn btn-dark">Calculate</button>
+        </form>
+    </div>
+</div>
+
+<!--Bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+<script src="main.js"></script> 
+
+</body>
+
+</html>
