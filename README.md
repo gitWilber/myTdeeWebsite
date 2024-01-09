@@ -10,7 +10,7 @@ This is a personal project meant to create a user interface for my TDEE calculat
 
 - Index
   
-  <img src="./index.png" width="500" alt/>
+  <img src="./index.png" width="1000" alt/>
 
 - FAQ
 - About
