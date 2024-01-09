@@ -8,8 +8,9 @@ This is a personal project meant to create a user interface for my TDEE calculat
 
 ## Features
 
-- Idex
-  <img src="./index.png" width="400" alt/>
+- Index
+  
+  <img src="./index.png" width="500" alt/>
 
 - FAQ
 - About
