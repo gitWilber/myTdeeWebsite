@@ -13,5 +13,14 @@ This is a personal project meant to create a user interface for my TDEE calculat
   <img src="./main.png" width="500" alt/>
 
 - FAQ
+
+  <img src="./faq.png" width="500" alt/>
+
 - About
+
+  <img src="./about.png" width="500" alt/>
+
 - Contact
+
+  <img src="./contact.png" width="500" alt/>
+
